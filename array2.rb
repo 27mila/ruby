@@ -7,10 +7,13 @@ while index < array_size
 	index += 1
 end
 index = 0
-while index < array.length  
-	index += 1
-array.select {|e| e % 2 ==0}
+while index < array.length do
+if array[index]%2 == 0
+puts array[index]
 end
+index += 1
+end
+
 
 
 
